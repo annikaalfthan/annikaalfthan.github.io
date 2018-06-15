@@ -1,0 +1,73 @@
+h1{
+color:white;
+line-height: 50px;
+font-family:'Libre Baskerville';
+background-color: #393939;
+padding-top:50px;
+padding-bottom:50px;
+padding-left: 20px;
+padding-right: 10px;}
+
+h2{
+font-family:'Libre Baskerville';
+}
+li{
+  font-size: 20px;
+  line-height: 50px;
+  font-family: 'Tajawal', sans-serif;
+}
+p{
+  font-size: 20px;
+  line-height: 50px;
+  font-family: 'Tajawal', sans-serif;
+}
+a{
+  font-size: 20px;
+  line-height: 50px;
+  font-family: 'Tajawal', sans-serif;
+}
+.punkt1{
+  text-align: center;
+}
+
+.megatrend{
+  background-color: #ffffff;
+  font-family:'Libre Baskerville';
+
+}
+
+.webelieve{
+  font-family:'Libre Baskerville';
+  line-height:24px;
+  background-color: #E2E2E2;
+  padding-top:40px;
+  padding-bottom:50px;
+  padding-left: 20px;
+  padding-right: 10px;
+
+}
+
+.nextsteps{
+  color:white;
+  background-color:#393939;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-family:'Libre Baskerville';
+}
+.testimonials{
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-family:'Libre Baskerville';
+}
+
+.contact{
+  background-color: #E2E2E2;
+  padding-top:20px;
+  padding-bottom:30px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
