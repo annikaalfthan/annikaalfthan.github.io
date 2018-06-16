@@ -1,16 +1,22 @@
 h1{
 color:white;
-line-height: 50px;
+line-height: 110px;
 font-family:'Libre Baskerville';
-background-color: #393939;
-padding-top:50px;
-padding-bottom:50px;
+font-size: 60px;
+padding-top:10px;
+padding-bottom:10px;
 padding-left: 20px;
 padding-right: 10px;}
 
 h2{
 font-family:'Libre Baskerville';
+padding-left: 20px;
+padding-right: 10px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-size:40px;
 }
+
 li{
   font-size: 20px;
   line-height: 50px;
@@ -20,26 +26,86 @@ p{
   font-size: 20px;
   line-height: 50px;
   font-family: 'Tajawal', sans-serif;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 a{
   font-size: 20px;
   line-height: 50px;
   font-family: 'Tajawal', sans-serif;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 .punkt1{
   text-align: center;
 }
+.item bild{
+  align-content: center;}
 
 .megatrend{
   background-color: #ffffff;
   font-family:'Libre Baskerville';
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+
 
 }
+
+.dark2 {
+background-color:#393939;
+color: white;
+padding-left: 20px;
+padding-right: 10px;
+padding-bottom: 30px;
+padding-top: 20px;
+}
+
+.lightgrey{
+  background-color:#E2E2E2;
+  color: black;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-top: 20px
+  font-size: 25px;
+}
+
+.items{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+.item{
+  width: 20%;
+  color: white;
+  text-align: center;
+  margin: 70px;
+
+
+}
+
+.circle{
+  background-color: #5F259F;
+  height: 327px;
+  width: 327px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle; display: table-cell;
+  font-size: 60px;
+  font-family: 'Libre Baskerville';
+
+}
+
+
+
+
 
 .webelieve{
   font-family:'Libre Baskerville';
   line-height:24px;
-  background-color: #E2E2E2;
+  background-color:white;
   padding-top:40px;
   padding-bottom:50px;
   padding-left: 20px;
@@ -47,9 +113,13 @@ a{
 
 }
 
+
 .nextsteps{
   color:white;
   background-color:#393939;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
   padding-top:50px;
   padding-bottom:50px;
   padding-left: 20px;
@@ -70,4 +140,9 @@ a{
   padding-bottom:30px;
   padding-left: 20px;
   padding-right: 10px;
+}
+
+
+@media and(max width 700px){
+
 }
