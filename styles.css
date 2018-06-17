@@ -18,12 +18,12 @@ font-size:40px;
 }
 
 li{
-  font-size: 20px;
+  font-size: 30px;
   line-height: 50px;
   font-family: 'Tajawal', sans-serif;
 }
 p{
-  font-size: 20px;
+  font-size: 30px;
   line-height: 50px;
   font-family: 'Tajawal', sans-serif;
   padding-left: 20px;
@@ -67,8 +67,7 @@ padding-top: 20px;
   padding-left: 20px;
   padding-right: 10px;
   padding-bottom: 30px;
-  padding-top: 20px
-  font-size: 25px;
+  padding-top: 20px;
 }
 
 .items{
@@ -93,11 +92,12 @@ padding-top: 20px;
   border-radius: 50%;
   text-align: center;
   vertical-align: middle; display: table-cell;
-  font-size: 60px;
-  font-family: 'Libre Baskerville';
-
 }
 
+.text {
+  font-size: 50px;
+  font-family: 'Libre Baskerville';
+}
 
 
 
